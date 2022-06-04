@@ -53,6 +53,8 @@ img {
 .container {
 }
 .nav__menu {
+   margin-top: 20px;
+   margin-bottom: 70px;
 }
 .nav__list {
    display: flex;
@@ -61,5 +63,99 @@ img {
 .nav__list a:hover {
    color: rgb(95, 163, 184);
    border-bottom: 1px solid rgb(95, 163, 184) ;
+}
+.main {
+}
+
+.main__contacts {
+   border-radius: 5px;
+   box-shadow: 0 15px 30px 10px rgba(0, 0, 0, .5);
+  width: 100%;
+  height: 100%;
+  background: rgb(241, 240, 238);
+}
+.main__rows {
+   display: flex;
+   justify-content: space-between;
+   
+}
+.main__cart_img {
+   max-width: 40%;
+}
+.photo {
+   border-radius: 5px;
+}
+.main__info {
+   margin-right: 150px;
+   height: auto;
+   
+   
+   
+}
+.main__info_title {
+   font-size: 30px;
+   align-items: center;
+   font-weight: lighter;
+  
+}
+.main__subtitle ul {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   flex-flow: row wrap;
+   
+ }
+
+ li {
+   width: 50%;  
+ }
+.main__subtitle  {
+   columns: 2;
+   margin-top: 40px;
+   display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+   
+}
+.contact__location {
+   display: flex;
+   align-items: center;
+   margin-right: 40px;
+
+}
+.contact__location:hover,
+.contact__tel:hover,
+.contact__GitHub:hover,
+.contact__email:hover {
+   color: rgb(95, 163, 184);
+   border-bottom: 1px solid rgb(95, 163, 184) ;
+
+}
+
+
+.contact__tel {
+   display: flex;
+}
+.contact__GitHub {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   
+}
+.contact__email {
+   display: flex;
+   height: 32px;
+   width: 32px;
+
+}
+
+.contacts__img {
+height: 32px;
+width: 32px;
+}
+
+.contacts__img, .contact__tel_img, .contact__GitHub_img, .contact__email_img{
+   margin-right: 15px;
 }
 
