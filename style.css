@@ -212,20 +212,25 @@ li {
    flex-grow: 1;
    justify-content: space-evenly;
    margin-top: 150px;
+   border-radius: 5px;
 }
-.skills__List ul {
+.skills__List ul  {
    box-sizing: content-box;
    margin-right: 50%;
    margin-left: 50%;
    height: 200px;
    width: 30px;
-   font-size: 25px
+   font-size: 25px;
+   
 } 
+
 pre, .skills__list   {
    color: white;
    font-size: 25px;
    
+   
 }
+
 .skills__title {
    display: flex;
    flex-direction: column;
@@ -241,4 +246,33 @@ pre, .skills__list   {
 .code__example{
    text-align: end;
    margin-bottom: 50px;
+}
+/* experience---------------------------------------- */
+
+.experience {
+}
+
+.experience__educatation_language {
+   margin-top: 150px;
+   display: flex;
+   justify-content: space-between;
+}
+.experience__column h2 {
+   margin-bottom: 50px;
+   letter-spacing: .5em;
+   margin-bottom: 50px
+}
+.experience__education h2 {
+   margin-bottom: 50px;
+   letter-spacing: .5em;
+
+}
+.experience__language h2 {
+   margin-bottom: 50px;
+   letter-spacing: .5em;
+
+}
+.experience__column a:hover {
+color: rgb(95, 163, 184);
+border-bottom: 1px solid rgb(95, 163, 184);
 }
