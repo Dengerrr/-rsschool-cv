@@ -276,3 +276,19 @@ pre, .skills__list   {
 color: rgb(95, 163, 184);
 border-bottom: 1px solid rgb(95, 163, 184);
 }
+
+/* footer--------------------------------- */
+
+.footer-cart {
+padding-top: 100px;
+display:block;
+align-items: flex-end;
+
+}
+
+.footer_icon {
+   
+   background-color: rgb(229, 231, 238);
+   height: 128px;
+   width: 128px;
+}
