@@ -205,14 +205,6 @@ li {
    margin-top: 150px;
 }
 
-.summary__title {
-
-
-}
-
-.summary__text {
-   
-}
 /* skils---------------------------------- */
 .skills__item {
    background-color: rgb(94,156,189);
@@ -229,9 +221,10 @@ li {
    width: 30px;
    font-size: 25px
 } 
-pre {
+pre, .skills__list   {
    color: white;
    font-size: 25px;
+   
 }
 .skills__title {
    display: flex;
@@ -239,6 +232,11 @@ pre {
    justify-content: space-between;
 
 
+}
+.skills__title {
+   align-self: start;
+   display: inline-block;
+   align-content: space-between;
 }
 .code__example{
    text-align: end;
