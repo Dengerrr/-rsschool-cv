@@ -17,6 +17,7 @@ ul {
 }
 
 li {
+   font-size: 20px;
    padding-left: 0;
 }
 
@@ -180,7 +181,9 @@ li {
 .container {}
 
 .summary__title {
-   text-align: center;
+   
+   margin-left: 50%;
+   margin-right: 50%;
    margin-top: 80px;
    margin-bottom: 50px;
    letter-spacing: .5em;
@@ -192,4 +195,99 @@ li {
    line-height: 200%;
    word-spacing: 0.5em;
    font-size: medium;
+}
+
+
+.summary {
+   display: block;
+   align-items: center;
+   justify-content: center;
+   margin-top: 150px;
+}
+
+/* skils---------------------------------- */
+.skills__item {
+   background-color: rgb(94,156,189);
+   display: flex;
+   flex-grow: 1;
+   justify-content: space-evenly;
+   margin-top: 150px;
+   border-radius: 5px;
+}
+.skills__List ul  {
+   box-sizing: content-box;
+   margin-right: 50%;
+   margin-left: 50%;
+   height: 200px;
+   width: 30px;
+   font-size: 25px;
+   
+} 
+
+pre, .skills__list   {
+   color: white;
+   font-size: 25px;
+   
+   
+}
+
+.skills__title {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+
+}
+.skills__title {
+   align-self: start;
+   display: inline-block;
+   align-content: space-between;
+}
+.code__example{
+   text-align: end;
+   margin-bottom: 50px;
+}
+/* experience---------------------------------------- */
+
+.experience {
+}
+
+.experience__educatation_language {
+   margin-top: 150px;
+   display: flex;
+   justify-content: space-between;
+}
+.experience__column h2 {
+   margin-bottom: 50px;
+   letter-spacing: .5em;
+   margin-bottom: 50px
+}
+.experience__education h2 {
+   margin-bottom: 50px;
+   letter-spacing: .5em;
+
+}
+.experience__language h2 {
+   margin-bottom: 50px;
+   letter-spacing: .5em;
+
+}
+.experience__column a:hover {
+color: rgb(95, 163, 184);
+border-bottom: 1px solid rgb(95, 163, 184);
+}
+
+/* footer--------------------------------- */
+
+.footer-cart {
+padding-top: 100px;
+display:block;
+align-items: flex-end;
+
+}
+
+.footer_icon {
+   
+   height: 128px;
+   width: 128px;
 }
